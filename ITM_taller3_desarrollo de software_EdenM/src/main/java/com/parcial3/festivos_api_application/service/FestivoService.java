@@ -22,7 +22,7 @@ public class FestivoService {
     @PostConstruct
     public void inicializarFestivos() {
         festivos.addAll(List.of(
-            new Festivo(1, 1, "Año nuevo", 1, null),
+            new Festivo(1, 1, "Año nuevo", 1, null), // Corregido: eliminado 'dia:', 'mes:', etc.
             new Festivo(6, 1, "Santos Reyes", 2, null),
             new Festivo(19, 3, "San José", 2, null),
             new Festivo(null, null, "Jueves Santo", 3, -3),
