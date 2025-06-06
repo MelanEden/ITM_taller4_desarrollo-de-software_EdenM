@@ -1,0 +1,43 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e8f5e9; /* Verde claro de fondo */
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Tarjetas con fondo verde claro */
+.mat-card {
+  margin-bottom: 24px;
+  background-color: #a5d6a7 !important; /* Verde más fuerte */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 8px !important;
+  color: #1b5e20; /* Texto en verde oscuro */
+}
+
+/* Barra superior con verde */
+.mat-toolbar {
+  background-color: #388e3c !important; /* Verde fuerte */
+  color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Snackbar de error (lo dejamos rojo) */
+.error-snackbar {
+  background-color: #f44336;
+  color: white;
+}

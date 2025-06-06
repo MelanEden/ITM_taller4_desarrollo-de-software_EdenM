@@ -1,0 +1,59 @@
+.holiday-table-view {
+  mat-card {
+    margin: 1rem;
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    .year-selector {
+      width: 150px;
+    }
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th.mat-header-cell {
+    background-color: #43b53f;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.75rem 1rem;
+  }
+
+  td.mat-cell {
+    padding: 0.65rem 1rem;
+    vertical-align: middle;
+  }
+
+  tr.mat-row:nth-child(even) .mat-cell {
+    background-color: #f5f5f5;
+  }
+
+  tr.mat-row:nth-child(odd) .mat-cell {
+    background-color: #ffffff; 
+  }
+
+  td.mat-cell mat-icon {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    color: #3fb54f;
+  }
+
+  .no-data {
+    text-align: center;
+    padding: 1rem;
+    font-style: italic;
+    color: #3fb54f;
+  }
+}
